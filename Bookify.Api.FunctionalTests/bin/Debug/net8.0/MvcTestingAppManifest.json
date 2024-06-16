@@ -1,0 +1,6 @@
+{
+  "Bookify.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Repositories\\Pragmatic Clean Architecture\\Bookify\\Bookify.Api",
+  "Bookify.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Repositories\\Pragmatic Clean Architecture\\Bookify\\Bookify.Application",
+  "Bookify.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Repositories\\Pragmatic Clean Architecture\\Bookify\\Bookify.Domain",
+  "Bookify.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Repositories\\Pragmatic Clean Architecture\\Bookify\\Bookify.Infrastructure"
+}

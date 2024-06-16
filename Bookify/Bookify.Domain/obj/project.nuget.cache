@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/vsKx3i+yPo=",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Repositories\\Pragmatic Clean Architecture\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kentz\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

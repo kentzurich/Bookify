@@ -1,0 +1,24 @@
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.AssemblyInfoInputs.cache
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.AssemblyInfo.cs
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.deps.json
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.dll
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.pdb
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.csproj.AssemblyReference.cache
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.dll
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\refint\Bookify.Domain.dll
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.pdb
+C:\Users\kentz\Desktop\Bookify\Bookify.Domain\obj\Debug\net8.0\ref\Bookify.Domain.dll
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.deps.json
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.dll
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.pdb
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.csproj.AssemblyReference.cache
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.AssemblyInfoInputs.cache
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.AssemblyInfo.cs
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.dll
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\refint\Bookify.Domain.dll
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.pdb
+D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\Bookify.Domain\obj\Debug\net8.0\ref\Bookify.Domain.dll

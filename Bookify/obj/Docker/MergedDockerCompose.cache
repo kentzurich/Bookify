@@ -1,0 +1,114 @@
+name: dockercompose17451112205997886529
+services:
+  bookify-db:
+    container_name: Bookify.Db
+    environment:
+      POSTGRES_DB: bookify
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\.containers\database
+      target: /var/lib/postgresql/data
+      bind:
+        create_host_path: true
+  bookify-idp:
+    container_name: Bookify.Identify
+    environment:
+      KEYCLOAK_IMPORT: /tmp/bookify-realm-export.json
+      KEYCLOAK_PASSWORD: admin
+      KEYCLOAK_USER: admin
+    image: jboss/keycloak:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      published: "18080"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\.containers\identify
+      target: /opt/jboss/keycloak/standalone/data
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify\.files\tmp\bookify-realm-export.json
+      target: /tmp/bookify-realm-export.json
+      bind:
+        create_host_path: true
+  bookify-redis:
+    container_name: Bookify.Redis
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    restart: always
+  bookify-seq:
+    container_name: Bookify.Seq
+    environment:
+      ACCEPT_EULA: "Y"
+    image: datalust/seq:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5341
+      published: "5341"
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8081"
+      protocol: tcp
+  bookify.api:
+    build:
+      context: D:\GitHub\Repositories\Pragmatic Clean Architecture\Bookify
+      dockerfile: Bookify.Api/Dockerfile
+    container_name: Bookify.Api
+    depends_on:
+      bookify-db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: bookifyapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      protocol: tcp
+    - mode: ingress
+      target: 8081
+      published: "5001"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\kentz\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\kentz\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose17451112205997886529_default
